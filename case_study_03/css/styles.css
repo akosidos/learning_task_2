@@ -1,0 +1,49 @@
+body
+{
+    background-color: #fff59c;
+}
+#wrapper
+{
+    border: 1px solid #000000;
+    background-color: rgb(122, 235, 255);
+    min-height: 100%;
+    margin: 5px;
+}
+.header
+{
+    border: 1px solid #000000;
+    background-color: rgb(122, 235, 255);
+    height: 300px;
+}
+.main-navigation
+{
+    background-color: #fff59c;
+    height: 70px;
+    text-align: center;
+}
+.main-navigation a
+{
+    color: #000000;
+    font-size: 28px;
+    line-height: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.main-navigation a:hover
+{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 70px;
+}
+h1
+{
+    color: #000000;
+    font-size: 30px;
+    margin-left: 10px;
+}
+li
+{
+            font-size:24px;
+            font-family:"Times New Roman";
+            margin-top:10px;
+        }
