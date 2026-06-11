@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> .: Javascript 06 :.</title>
+        <style type="text/css">
+            .image_container{
+                display: none;
+            }
+        </style>
+        <script>
+            function set_visibility(display){
+                document.getElementById("mualani").style.display = value;
+                document.getElementById("nefer").style.display = value;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="image_container" id="mualani">
+            <img src="C:\Users\User\OneDrive\Desktop\HTML & CSS\school\mualani.jpg" width="30%"/>
+        </div>
+        [ <a href="javascript:void(0)" onClick="return set_visibility('block')">Display image</a> | 
+          <a href="javascript:void(0)" onClick="return set_visibility('none')"> Hide Image</a> 
+        ]
+        <div class="image_container" id="nefer">
+            <img src="C:\Users\User\OneDrive\Desktop\HTML & CSS\school\raiden.jpg" width="30%"/>
+        </div>
+        [ <a href="javascript:void(0)" onClick="return set_visibility('block')">Display image</a> | 
+          <a href="javascript:void(0)" onClick="return set_visibility('none')"> Hide Image</a> 
+        ]
+    </body>
+</html>

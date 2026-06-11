@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> .: OMEGA CALCULATOR :.</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .box{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 100%;
+                margin-top: 100px;
+                padding: 30px;
+                    background-color: rgba(5, 151, 0, 0.842);
+                outline: 2px solid black;
+            }
+
+            .answer{
+                padding: 20px;
+                font-size: 20px;
+                font-style: bold;
+                color: rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, 0.514);
+                outline: 2px solid rgb(255, 255, 255);
+                border-radius: 20px;
+            }
+            button {
+                background-color: rgb(186, 224, 255);
+                font-size: 20px;
+                padding: 15px 30px;
+            }
+            button:hover {
+                background-color: rgb(117, 193, 255);
+                cursor: pointer;
+            }
+            #sum{
+                font-style: bold;
+                color: rgb(255, 251, 0);
+            }
+            #difference{
+                font-style: bold;
+                color: rgb(255, 251, 0);
+            }
+            #product{
+                font-style: bold;
+                color: rgb(255, 251, 0);
+            }
+            #quotient{
+                font-style: bold;
+                color: rgb(255, 251, 0);
+            }
+        </style>
+        <script>
+            function sum(){
+                let first_num = prompt("Enter 1st Number: ");
+                let second_num = prompt("Enter 2nd Number: ");
+                let sum = parseFloat(first_num) + parseFloat(second_num);
+                alert ("The Answer is : " + sum);
+
+                document.getElementById("sum_result").innerHTML = "Sum of " + first_num + " and " + second_num + " = <span id='sum'>" + sum + "</span>";
+            }
+            function subtract(){
+                let first_num = prompt("Enter 1st Number: ");
+                let second_num = prompt("Enter 2nd Number: ");
+                let difference = parseFloat(first_num) - parseFloat(second_num);
+                alert ("The Answer is : " + difference);
+
+                document.getElementById("difference_result").innerHTML = "Difference of " + first_num + " and " + second_num + " = <span id='difference'>" + difference + "</span>";
+            }
+            function multiplication(){
+                let first_num = prompt("Enter 1st Number: ");
+                let second_num = prompt("Enter 2nd Number: ");
+                let product = parseFloat(first_num) * parseFloat(second_num);
+                alert ("The Answer is : " + product);
+
+                document.getElementById("product_result").innerHTML = "Product of " + first_num + " and " + second_num + " = <span id='product'>" + product + "</span>";
+            }
+            function division(){
+                let first_num = prompt("Enter 1st Number: ");
+                let second_num = prompt("Enter 2nd Number: ");
+                let quotient = parseFloat(first_num) / parseFloat(second_num);
+                alert ("The Answer is : " + quotient);
+
+                document.getElementById("quotient_result").innerHTML = "Quotient of " + first_num + " and " + second_num + " = <span id='quotient'>" + quotient + "</span>";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="box">
+
+            <button onclick="return sum()">Addition</button>
+            <div id="sum_result" class="answer">Waiting for the answer</div>
+
+            <button onclick="return subtract()">Subtraction</button>
+            <div id="difference_result" class="answer">Waiting for the answer</div>
+
+            <button onclick="return multiplication()">Multiplication</button>
+            <div id="product_result" class="answer">Waiting for the answer</div>
+
+            <button onclick="return division()">Division</button>
+            <div id="quotient_result" class="answer">Waiting for the answer</div>
+        </div>
+    </body>
+</html>
