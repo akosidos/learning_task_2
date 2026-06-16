@@ -49,8 +49,8 @@
         <select name="operation">
                 <option value="+">+</option>
                 <option value="-">-</option>
-                <option value="+">*</option>
-                <option value="-">/</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
         </select><br><br>
         <input type="submit" name="btnSubmit" value="Calculate">
     </form>
