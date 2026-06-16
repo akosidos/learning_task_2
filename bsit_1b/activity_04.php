@@ -42,9 +42,6 @@
         <label>Enter First Number</label><br>
         <input type="number" name="txtNum1" required><br><br>
 
-        <label>Enter Second Number</label><br>
-        <input type="number" name="txtNum2" required><br><br>
-
         <label>Operation (+, -, *, /)</label><br>
         <select name="operation">
                 <option value="+">+</option>
@@ -52,6 +49,10 @@
                 <option value="*">*</option>
                 <option value="/">/</option>
         </select><br><br>
+        
+        <label>Enter Second Number</label><br>
+        <input type="number" name="txtNum2" required><br><br>
+
         <input type="submit" name="btnSubmit" value="Calculate">
     </form>
     <?php
