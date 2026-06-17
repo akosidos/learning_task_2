@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(225, 161, 255);
+}
+.wrapper{
+    width: 80%;
+    border: 1px #000 solid;
+    margin: 0 auto;
+    min-height: 100px;
+}
+.header{
+    background-image: url(../images/yes_images.png);
+    min-height: 100px;
+}
