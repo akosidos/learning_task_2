@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Page */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f8fafc;
@@ -12,7 +11,6 @@ body {
     min-height: 100vh;
 }
 
-/* Container */
 #wrapper {
     max-width: 700px;
     margin: 100px auto;
@@ -22,7 +20,6 @@ body {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
-/* Navigation */
 .main-navigation {
     margin-bottom: 40px;
 }
@@ -39,7 +36,6 @@ body {
     color: #1d4ed8;
 }
 
-/* Heading */
 h1 {
     font-size: 3rem;
     color: #ffffff;
